@@ -15,4 +15,4 @@ class FindAnswerTestCase(TestCase):
         self.assertEqual(get_random_word(self.words), 'озеро')
 
     def test_get_all_5_letter_words(self):
-        self.assertEqual(len(get_all_5_letter_words()), 2076)
+        self.assertEqual(len(get_all_5_letter_words()), 2080)

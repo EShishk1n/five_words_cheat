@@ -33,7 +33,7 @@ def find_answer():
 
 def get_all_5_letter_words() -> list:
     all_words = []
-    with open("C:/projects/five_letters/russian-words/russian_mnemonic_words_5letter.txt", "r", encoding='utf-8') as file:
+    with open("C:/projects/five_letters/russian_mnemonic_words_5letter.txt", "r", encoding='utf-8') as file:
         for word in file:
             all_words.append(word[:-1])
 
